@@ -1,0 +1,1 @@
+A project involving deconstructing and then rebuilding a web page in order to practice front-end development
