@@ -1,0 +1,130 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 9%;
+}
+
+.search {
+    width: 580px;
+    height: 40px;
+    text-indent: 15px;
+}
+
+.search:hover {
+    box-shadow: 1px 3px 5px rgb(175, 174, 174);
+}
+
+#navbar {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    font-family: arial, sans-serif;
+    line-height: 24px;
+    font-size: 13px;
+    margin: 7px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    font-size: 20px;
+}
+
+div {
+    display: inline-block;
+}
+
+.apps {
+    opacity: 0.6;
+}
+
+.apps:hover {
+    opacity: 1;
+}
+
+.entry {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    text-decoration: none !important;
+    background: linear-gradient(
+        rgba(31, 59, 185, 0.87),
+        rgba(101, 126, 238, 0.87)
+    );
+    padding: 5px 12px;
+}
+
+.entry:hover {
+    box-shadow: 0 0.7px 1.4px rgba(22, 125, 143, 0.87);
+}
+
+.submit, .lucky {
+    border: none;
+    color: rgba(179, 180, 184, 0.87); 
+    background-color: rgba(226, 230, 241, 0.87); 
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    min-width: 54px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit:hover, .lucky:hover {
+    color: black;
+    box-shadow: 0 0.7px 1.4px rgba(50, 61, 63, 0.87);
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#foot {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(226, 230, 241, 0.87);
+    border-top: 1px solid rgba(209, 209, 218, 0.87);
+}
+
+#left {
+    display: flex;
+    float: left;
+}
+
+#right {
+    display: flex;
+    float: right;
+}
+
+#foot a {
+    padding: 0 15px;
+    color: rgba(130, 131, 134, 0.87);
+}
